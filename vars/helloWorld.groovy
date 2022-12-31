@@ -1,5 +1,5 @@
-def call(String name,String country){
-  echo "My name is ${name} and I am from ${country}" 
+def call(Map bio=[:]){
+  echo "My name is ${bio.name} and I am from ${bio.country}" 
   
   
   
